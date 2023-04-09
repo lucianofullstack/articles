@@ -18,7 +18,9 @@ url: "" # the base hostname & protocol for your site, e.g. https://example.com
 #   enabled: "true"
 #   color: "#fff"
 #   background_color: "#ff4e00"
-#   text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
+#   text_transform: "uppercase"
+
+
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
@@ -49,23 +51,3 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
-
-category-list: [code, blog, unix]
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-
-<ul>
-  {% for category in site.categories %}
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-      <a href="{{site.baseurl}}{{category_name}}">{{category_name}}</a>
-  {% endfor %}
-</ul>
-
-
-
