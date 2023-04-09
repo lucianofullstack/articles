@@ -33,6 +33,12 @@ translate_langs:
   - lang: hr
     img: assets/flags/croatia.png     
     text: Croatinan
+  - lang: ar
+    img: assets/flags/emirates.png
+    text: Arab
+  - lang: he
+    img: assets/flags/israel.png
+    text: Hebrew
   - lang: zh-CN
     img: assets/flags/china.png
     text: Chinese
