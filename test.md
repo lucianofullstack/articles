@@ -8,49 +8,15 @@ permalink: /test
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. https://example.com
-favicon: "" # the favicon for your site
 
-# If you don't want transparent header, you can set false
-# 
-
-# If you want to change the content width, you can set to another value
-# content_width: "920px"
-
-# Google analytics
-# google_analytics: [Tracking ID]
+# defaults:
+#   home:
+#     banner: "Your image url"
 
 # If you want to generate website sitemap, you can set true
 # sitemap: false
-
-
-
-# You can choose a theme color
-# Default theme colors as below:
-# coolblack: #090a0b
-# spacegrey: #353535
-# snowwhite: #ffffff
-# theme_color: snowwhite
-# Custom color as below:
 # theme_color: "#882250"
-
-# You can choose a brand color
-# Default brand colors as below:
-# orangered: #ff5100
-# greatgold: #f2cb05
-# greenblue: #389092
-#
 # brand_color: orangered
-#
-# Custom color as below:
-# brand_color: "#1a8e42"
-
-# Night/Dark mode
-# Default mode is "auto", "auto" is for auto nightshift
-# (19:00 - 07:00), "manual" is for manual toggle, and
-# "on/off" is for default on/off.
-#
-#
-# night_mode: "auto"
 
 # Code badge setting
 # You can enable or disable the code badge and so on
@@ -60,21 +26,8 @@ favicon: "" # the favicon for your site
 #   background_color: "#ff4e00"
 #   text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
 
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-# header_pages:
-#   - index.html
-#   - archives.html
-#   - categories.html
-#   - tags.html
-#   - about.md
 
-# Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
-#     banner: "Your image url"
+
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
@@ -91,19 +44,6 @@ favicon: "" # the favicon for your site
 #   min_height: null        # Banner minimum height
 #   heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
 #   subheading_style: null  # Custom subheading style (e.g. color: gold)
-
-# Excerpt size setting
-# excerpt_size: 350
-
-# Pagination setting
-# paginate: 5
-
-
-
-
-# Utterances comments
-# See https://utteranc.es/
-# set follow_site_theme true to make utterances' theme follow the site's
 
 
 # Build settings
