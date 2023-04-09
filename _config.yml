@@ -83,7 +83,7 @@ utterances:
     theme: "github-light"
     follow_site_theme: true
 # Analytics
-google_analytics: "G-2RN9JC9F2K"
+# google_analytics: "G-2RN9JC9F2K"
 # highlighter: rouge
 markdown: kramdown
 kmarkdown:
