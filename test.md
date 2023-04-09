@@ -23,8 +23,6 @@ favicon: "" # the favicon for your site
 # sitemap: false
 
 
-# Translate languges
-# https://cloud.google.com/translate/docs/languages
 
 # You can choose a theme color
 # Default theme colors as below:
@@ -51,11 +49,6 @@ favicon: "" # the favicon for your site
 # (19:00 - 07:00), "manual" is for manual toggle, and
 # "on/off" is for default on/off.
 #
-# Whatever the user's choice is, it will supersede the
-# default setting of the site and be kept during the
-# visit (session). Only the dark mode setting is"manual",
-# it will be always kept on every visit (i.e. no matter
-# the browser is closed or not)
 #
 # night_mode: "auto"
 
@@ -105,28 +98,13 @@ favicon: "" # the favicon for your site
 # Pagination setting
 # paginate: 5
 
-# Disqus comments
-# disqus:
-#   shortname: "Your Disqus username"
 
-# Gitment comments
-# gitment:
-#   username: "Your GitHub username"
-#   repo: "The repo to store comments"
-#   client_id: "Your client ID"
-#   client_secret: "Your client secret"
-#   redirect_uri: "Your redirect url"   # If you use a custom domain name
+
 
 # Utterances comments
 # See https://utteranc.es/
 # set follow_site_theme true to make utterances' theme follow the site's
 
-# utterances:
-#   repo: "owner/repo"
-#   issue_term: "title"
-#   label: "utterances comment"
-#   theme: "github-light"
-#   follow_site_theme: true
 
 # Build settings
 # highlighter: none
