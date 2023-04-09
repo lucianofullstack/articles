@@ -11,7 +11,7 @@ url: "" # the base hostname & protocol for your site, e.g. https://example.com
 favicon: "" # the favicon for your site
 
 # If you don't want transparent header, you can set false
-# header_transparent: true
+# 
 
 # If you want to change the content width, you can set to another value
 # content_width: "920px"
@@ -22,27 +22,16 @@ favicon: "" # the favicon for your site
 # If you want to generate website sitemap, you can set true
 # sitemap: false
 
-# If you want to change site language, you can set lang option
-#   # default lang is en
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
 # translate_langs:
-#   - lang: en
-#     img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
-#     text: English
 #
-#   - lang: fr
-#     img: https://cdn.countryflags.com/thumbs/france/flag-400.png
-#     text: French
 #
 #   - lang: zh-CN
 #     img: https://cdn.countryflags.com/thumbs/china/flag-400.png
 #     text: Chinese(Simple)
 #
-#   - lang: ja
-#     img: https://cdn.countryflags.com/thumbs/japan/flag-400.png
-#     text: Japanese
 #
 #   - lang: ko
 #     img: https://cdn.countryflags.com/thumbs/south-korea/flag-400.png
