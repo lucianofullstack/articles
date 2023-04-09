@@ -1,1 +1,4 @@
+theme: minima
+title: My Articles
+author: lucianofullstack
 category-list: [code, blog, unix]
