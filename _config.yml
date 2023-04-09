@@ -1,4 +1,6 @@
 # Theme
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site, e.g. https://example.com
 remote_theme: jeffreytse/jekyll-theme-yat
 # Config
 title: creating.pages.dev
