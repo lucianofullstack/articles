@@ -12,9 +12,15 @@ translate_langs:
   - lang: en
     img: assets/flags/usa.png
     text: English
+  - lang: es
+    img: assets/flags/spain.png
+    text: Spain
   - lang: it
     img: assets/flags/italy.png
     text: Italian
+  - lang: pt
+    img: assets/flags/portugal.png
+    text: Portuguese
   - lang: fr
     img: assets/flags/france.png
     text: French
