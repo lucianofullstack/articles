@@ -36,7 +36,7 @@ translate_langs:
   - lang: ar
     img: assets/flags/emirates.png
     text: Arab
-  - lang: he
+  - lang: iw
     img: assets/flags/israel.png
     text: Hebrew
   - lang: zh-CN
