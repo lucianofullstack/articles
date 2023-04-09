@@ -1,8 +1,13 @@
 remote_theme: jeffreytse/jekyll-theme-yat
-title: lucianofullstack
+title: Luciano Fullstack
 author: Luciano Pereira
 email: lucianofullstack@duck.com
 copyright: "lucianofullstack (c) 2023-{currentYear} {author}"
 description: "lucianofullstack - This is my source code"
 yat:
   date_format: "%b %d, %Y"
+lang: "en"
+translate_langs:
+  - lang: en
+    img: assets/flags/usa.png
+    text: English

@@ -6,19 +6,10 @@ permalink: /test
 
 # Test Page
 
-remote_theme: jeffreytse/jekyll-theme-yat
-title: My Articles
-author: lucianofullstack
-email: your-email@domain.com
-copyright: "Unpublished Work (c) 2023-{currentYear} {author}"
-description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. https://example.com
 favicon: "" # the favicon for your site
-# Yat date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-yat:
-  date_format: "%b %d, %Y"
+
 # If you don't want transparent header, you can set false
 # header_transparent: true
 
@@ -32,7 +23,7 @@ yat:
 # sitemap: false
 
 # If you want to change site language, you can set lang option
-# lang: "en"  # default lang is en
+#   # default lang is en
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
@@ -177,3 +168,29 @@ plugins:
   - jekyll-spaceship
 
 category-list: [code, blog, unix]
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<ul>
+  {% for category in site.categories %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+      <a href="{{site.baseurl}}{{category_name}}">{{category_name}}</a>
+  {% endfor %}
+</ul>
+
+
+{% for tag in site.tags %}
+  <h3>{{ tag[0] }}</h3>
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
