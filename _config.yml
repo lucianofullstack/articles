@@ -12,9 +12,21 @@ translate_langs:
   - lang: en
     img: assets/flags/usa.png
     text: English
+  - lang: it
+    img: assets/flags/italy.png
+    text: Italian
   - lang: fr
-    img: assets/france.png
+    img: assets/flags/france.png
     text: French
+  - lang: ru
+    img: assets/flags/russia.png     
+    text: Russian
+  - lang: zh-CN
+    img: assets/flags/china.png
+    text: Chinese
   - lang: ja
-    img: assets/japan.png
+    img: assets/flags/japan.png
     text: Japanese
+  - lang: ko
+    img: assets/flags/korea.png
+    text: Korean

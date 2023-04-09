@@ -24,22 +24,7 @@ favicon: "" # the favicon for your site
 
 
 # Translate languges
-# langs refer to https://cloud.google.com/translate/docs/languages
-# translate_langs:
-#
-#
-#   - lang: zh-CN
-#     img: https://cdn.countryflags.com/thumbs/china/flag-400.png
-#     text: Chinese(Simple)
-#
-#
-#   - lang: ko
-#     img: https://cdn.countryflags.com/thumbs/south-korea/flag-400.png
-#     text: Korean
-#
-#   - lang: ru
-#     img: https://cdn.countryflags.com/thumbs/russia/flag-400.png
-#     text: Russian
+# https://cloud.google.com/translate/docs/languages
 
 # You can choose a theme color
 # Default theme colors as below:
