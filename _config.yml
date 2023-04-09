@@ -15,8 +15,13 @@ header_pages:
    - index.html
    - about.md
 # Design
-theme_color: "#f2f8f0"
+theme_color: "#f2f8f0" #e3f0df
 brand_color: "#ff7747"
+code_badge:
+    enabled: "true"
+    color: "#fff"
+    background_color: "#ff4e00"
+    text_transform: "uppercase"
 header_transparent: true
 sitemap: false
 night_mode: "auto"
@@ -76,3 +81,14 @@ utterances:
     follow_site_theme: true
 # Analytics
 google_analytics: "G-2RN9JC9F2K"
+# highlighter: rouge
+markdown: kramdown
+kmarkdown:
+  input: GFM
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-spaceship
+  
