@@ -15,7 +15,7 @@ header_pages:
    - index.html
    - about.md
 # Design
-theme_color: "#0000FF"
+theme_color: "#6c918a"
 brand_color: "#00FF00"
 header_transparent: true
 sitemap: false
