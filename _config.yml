@@ -11,7 +11,7 @@ defaults:
     home:
         heading: "Your awesome heading"
         subheading: "Your awesome subheading"
-        banner: "assets/banner/olivetti.jpg"
+        banner: "assets/banners/olivetti.jpg"
 header_pages:
    - index.html
    - about.md
