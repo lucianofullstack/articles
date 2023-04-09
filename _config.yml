@@ -15,6 +15,7 @@ header_pages:
    - index.html
    - about.md
 # Design
+brand_color: "red"
 header_transparent: true
 night_mode: "auto"
 content_width: "920px"
@@ -72,4 +73,4 @@ utterances:
     theme: "github-light"
     follow_site_theme: true
 # Analytics
-google_analytics: G-2RN9JC9F2K
+google_analytics: "G-2RN9JC9F2K"
