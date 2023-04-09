@@ -13,21 +13,12 @@ url: "" # the base hostname & protocol for your site, e.g. https://example.com
 #   home:
 #     banner: "Your image url"
 
-# If you want to generate website sitemap, you can set true
-# sitemap: false
-# theme_color: "#882250"
-# brand_color: orangered
 
-# Code badge setting
-# You can enable or disable the code badge and so on
 # code_badge:
 #   enabled: "true"
 #   color: "#fff"
 #   background_color: "#ff4e00"
 #   text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
-
-
-
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
@@ -77,12 +68,4 @@ category-list: [code, blog, unix]
 </ul>
 
 
-{% for tag in site.tags %}
-  <h3>{{ tag[0] }}</h3>
-  <ul>
-    {% for post in tag[1] %}
-      <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
 
