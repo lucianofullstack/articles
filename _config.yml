@@ -1,4 +1,4 @@
-theme: minima
+remote_theme: jeffreytse/jekyll-theme-yat
 title: My Articles
 author: lucianofullstack
 category-list: [code, blog, unix]
