@@ -7,12 +7,12 @@ title: design+code
 author: Luciano Pereira
 email: lucianofullstack@duck.com
 description: "a blog about web development"
-copyright: "{title} (c) {currentYear} {author}"
+copyright: "design+code (c) {currentYear} {author}"
 favicon: "favicon.ico"
 defaults:
     home:
-        heading: "{title}"
-        subheading: "{description}"
+        heading: "design+code"
+        subheading: "a blog about web development"
         banner: "assets/banners/olivetti.jpg"
 header_pages:
    - index.html
