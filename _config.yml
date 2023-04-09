@@ -16,7 +16,7 @@ header_pages:
    - about.md
 # Design
 theme_color: "#6c918a"
-brand_color: "#00FF00"
+brand_color: "#ff7747"
 header_transparent: true
 sitemap: false
 night_mode: "auto"
