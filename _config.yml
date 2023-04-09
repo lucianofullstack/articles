@@ -18,6 +18,9 @@ translate_langs:
   - lang: it
     img: assets/flags/italy.png
     text: Italian
+  - lang: de
+    img: assets/flags/germany.png
+    text: German
   - lang: pt
     img: assets/flags/portugal.png
     text: Portuguese
@@ -27,6 +30,9 @@ translate_langs:
   - lang: ru
     img: assets/flags/russia.png     
     text: Russian
+  - lang: hr
+    img: assets/flags/croatia.png     
+    text: Croatinan
   - lang: zh-CN
     img: assets/flags/china.png
     text: Chinese
