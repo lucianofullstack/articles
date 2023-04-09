@@ -11,3 +11,6 @@ translate_langs:
   - lang: en
     img: assets/flags/usa.png
     text: English
+  - lang: fr
+    img: assets/france.png
+    text: French
