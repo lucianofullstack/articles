@@ -1,18 +1,18 @@
 # Theme
+remote_theme: jeffreytse/jekyll-theme-yat
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. https://example.com
-remote_theme: jeffreytse/jekyll-theme-yat
 # Config
 title: design+code
 author: Luciano Pereira
 email: lucianofullstack@duck.com
-copyright: "design+code (c) {currentYear} {author}"
-description: "design+code - A blog about web development"
+description: "a blog about web development"
+copyright: "{title} (c) {currentYear} {author}"
 favicon: "favicon.ico"
 defaults:
     home:
-        heading: "design + code"
-        subheading: "a blog about web development"
+        heading: "{title}"
+        subheading: "{description}"
         banner: "assets/banners/olivetti.jpg"
 header_pages:
    - index.html
