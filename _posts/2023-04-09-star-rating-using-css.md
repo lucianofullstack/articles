@@ -21,18 +21,15 @@ In orther to specify a rating we will use a `span` with a <a href="https://devel
 
 We are going to use the `★` character for our rating system. 
 
-<span style="color:#ffc700">★★★★★</span>
+1. <span style="color:#ffc700">★</span><span style="color:#dddad7">★★★★</span>
 
-<span style="color:#ffc700">★★★★</span><span style="color:#dddad7">★</span>
+2. <span style="color:#ffc700">★★</span><span style="color:#dddad7">★★★</span>
 
-<span style="color:#ffc700">★★★</span>
-<span style="color:#dddad7">★★</span>
+3. <span style="color:#ffc700">★★★</span><span style="color:#dddad7">★★</span>
 
-<span style="color:#ffc700">★★</span>
-<span style="color:#dddad7">★★★</span>
+4. <span style="color:#ffc700">★★★★</span><span style="color:#dddad7">★</span>
 
-<span style="color:#ffc700">★</span>
-<span style="color:#dddad7">★★★★</span>
+5. <span style="color:#ffc700">★★★★★</span>
 
 
 If you think about it we are always to show five stars, some will be 
