@@ -61,7 +61,7 @@ Content | before | after
 
 ### The Code
 
-`
+<pre>
 .star[data-rating="1"]::before,
 .star[data-rating="4"]::after {
   content: "★";
@@ -82,7 +82,7 @@ Content | before | after
 .star[data-rating="0"]::after {
   content: "★★★★★";
 }
-`
+</pre>
 
 ## Example
 
