@@ -53,16 +53,6 @@ Rating | before | after
 4      | 4      | 1
 5      | 5      | 0
 
-Now we know how many stars will our content need and we can group them.
-
-Content | before | after
-:-----: | :-----:|:----:
-1 ★     | 1      | 4
-2 ★     | 2      | 3
-3 ★     | 3      | 2
-4 ★     | 4      | 1
-5 ★     | 5      | 0
-
 ### The Code
 
 <pre>
