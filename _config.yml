@@ -32,7 +32,7 @@ header_transparent: true
 sitemap: false
 night_mode: "auto"
 content_width: "920px"
-excerpt_size: 210
+excerpt_size: 200
 paginate: 5
 yat:
   date_format: "%b %d, %Y"
