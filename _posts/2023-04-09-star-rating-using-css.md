@@ -9,9 +9,15 @@ tags: snippets html css rating
 
 ### The goal
 
-In orther to specify a rating we will use the <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes">data attribute</a> and assign a value from <strong>1</strong> to <strong>5</strong>.
+In orther to specify a rating we will use a span with a <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes">data attribute</a> and assigned value from <strong>1</strong> to <strong>5</strong>.
 
-> <span class="star" data-rating="3"></span>
+```
+<span class="star" data-rating="3"></span>
+```
+
+### The CSS
+
+
 
 ### Example
 
