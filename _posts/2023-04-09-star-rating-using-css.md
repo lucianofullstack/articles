@@ -7,6 +7,7 @@ tags: snippets html css rating
 
 Learn how to create a simple "star rating" look with only CSS and minimum HTML. We are going to use the data attribute and the before and after selectors. Check this step-by-step guide.
 
+Let´s Start.
 
 ## GOAL
 
