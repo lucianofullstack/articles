@@ -11,7 +11,7 @@ Let´s Start.
 
 ## GOAL
 
-Create a rating system using minimum HTML.
+Create a rating system using minimum markup.
 
 ## HTML
 
