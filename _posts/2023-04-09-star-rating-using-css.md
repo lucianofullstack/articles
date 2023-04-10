@@ -5,11 +5,9 @@ categories: CSS
 tags: snippets html css rating
 ---
 
-# Create a Rating System using only CSS
+# Create a rating system using minimum HTML markup.
 
 ## The goal
-
-Create a rating system using minimum HTML markup.
 
 In orther to specify a rating we will use the <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes">data attribute</a> and assign a value from 1 to 5.
 
