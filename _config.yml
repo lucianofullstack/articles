@@ -12,7 +12,7 @@ favicon: "favicon.ico"
 defaults:
     home:
         heading: "design➕code"
-        subheading: "a blog about web development"
+        subheading: "✒️ about web development"
         banner: "assets/banners/olivetti.jpg"
 header_pages:
    - index.html
