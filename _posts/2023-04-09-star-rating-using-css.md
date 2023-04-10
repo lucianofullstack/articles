@@ -37,7 +37,7 @@ We are going to use the `★` character for our rating system.
 
 ### The Logic
 
-If you think about it we are always to show <strong>five stars</strong>, some will be <span style="color:#ffc700">★</span>, and others will be <span style="color:#dddad7">★</span>. 
+If you think about it we are always to show <strong>five stars</strong>, some will be <span style="color:#ffc700">★</span>, and others <span style="color:#dddad7">★</span>. 
 
 In orther to show both types we will use the `::before` (<span style="color:#ffc700">★</span>) and `::after` (<span style="color:#dddad7">★</span>) selectors.
 
