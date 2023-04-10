@@ -8,7 +8,7 @@ author: Luciano Pereira
 email: lucianofullstack@duck.com
 description: "a blog about web development"
 copyright: "design+code (c) {currentYear} {author}"
-favicon: "favicon.ico"
+favicon: "https://lucianofullstack.github.io/articles/favicon.ico"
 defaults:
     home:
         heading: "design➕code"
