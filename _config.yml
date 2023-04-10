@@ -3,7 +3,7 @@ remote_theme: jeffreytse/jekyll-theme-yat
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. https://example.com
 # Config
-title: design+code
+title: design + code
 author: Luciano Pereira
 email: lucianofullstack@duck.com
 description: "a blog about web development"
