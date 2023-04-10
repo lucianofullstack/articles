@@ -11,7 +11,7 @@ copyright: "design﹢code (c) {currentYear} {author}"
 favicon: "https://lucianofullstack.github.io/articles/favicon.ico"
 defaults:
     home:
-        heading: "design➕code"
+        heading: "design﹢code"
         subheading: "✒️ about web development"
         banner: "assets/banners/olivetti.jpg"
 header_pages:
