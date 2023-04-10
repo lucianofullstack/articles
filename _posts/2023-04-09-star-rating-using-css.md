@@ -11,7 +11,7 @@ Create a rating system using minimum HTML.
 
 ## The HTML
 
-In orther to specify a rating we will use a span with a <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes">`data attribute`</a> and assigned value from <strong>`1`</strong> to <strong>`5`</strong>.
+In orther to specify a rating we will use a `span` with a <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes">`data attribute`</a> and a value from `1` to `5`.
 
 ```
 <span class="star" data-rating="3"></span>
