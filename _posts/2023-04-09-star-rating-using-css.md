@@ -19,6 +19,8 @@ In orther to specify a rating we will use a `span` with a <a href="https://devel
 
 ## CSS
 
+### The Content
+
 We are going to use the `★` character for our rating system. 
 
 1. <span style="color:#ffc700">★</span><span style="color:#dddad7">★★★★</span>
@@ -31,12 +33,9 @@ We are going to use the `★` character for our rating system.
 
 5. <span style="color:#ffc700">★★★★★</span>
 
+### The Logic
 
-If you think about it we are always to show five stars, some will be 
-
-
-and the `::before` and `::after` selectors in order to define how many stars are going to be turned on ★
-★
+If you think about it we are always to show <strong>five stars</strong>, some will be <span style="color:#ffc700">★</span>, and others will be <span style="color:#dddad7">★</span>. In orther to show both types we will use the `::before` (<span style="color:#ffc700">★</span>) and `::after` (<span style="color:#dddad7">★</span>) selectors.
 
 ## Example
 
