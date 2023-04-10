@@ -40,43 +40,43 @@ yat:
 lang: "en"
 translate_langs:
   - lang: en
-    img: assets/flags/usa.png
+    img: https://lucianofullstack.github.io/articles/assets/flags/usa.png
     text: English
   - lang: es
-    img: assets/flags/spain.png
+    img: https://lucianofullstack.github.io/articles/assets/flags/spain.png
     text: Spain
   - lang: it
-    img: assets/flags/italy.png
+    img: https://lucianofullstack.github.io/articles/assets/flags/italy.png
     text: Italian
   - lang: de
-    img: assets/flags/germany.png
+    img: https://lucianofullstack.github.io/articles/assets/flags/germany.png
     text: German
   - lang: pt
-    img: assets/flags/portugal.png
+    img: https://lucianofullstack.github.io/articles/assets/flags/portugal.png
     text: Portuguese
   - lang: fr
-    img: assets/flags/france.png
+    img: https://lucianofullstack.github.io/articles/assets/flags/france.png
     text: French
   - lang: ru
-    img: assets/flags/russia.png     
+    img: https://lucianofullstack.github.io/articles/assets/flags/russia.png     
     text: Russian
   - lang: hr
-    img: assets/flags/croatia.png     
-    text: Croatinan
+    img: https://lucianofullstack.github.io/articles/assets/flags/croatia.png     
+    text: Croatian
   - lang: ar
-    img: assets/flags/emirates.png
+    img: https://lucianofullstack.github.io/articles/assets/flags/emirates.png
     text: Arab
   - lang: iw
-    img: assets/flags/israel.png
+    img: https://lucianofullstack.github.io/articles/assets/flags/israel.png
     text: Hebrew
   - lang: zh-CN
-    img: assets/flags/china.png
+    img: https://lucianofullstack.github.io/articles/assets/flags/china.png
     text: Chinese
   - lang: ja
-    img: assets/flags/japan.png
+    img: https://lucianofullstack.github.io/articles/assets/flags/japan.png
     text: Japanese
   - lang: ko
-    img: assets/flags/korea.png
+    img: https://lucianofullstack.github.io/articles/assets/flags/korea.png
     text: Korean
 # Comments
 utterances:
