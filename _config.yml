@@ -17,6 +17,7 @@ defaults:
 header_pages:
    - index.html
    - about.html
+   - categories.html
    - tags.html
 # Design
 theme_color: "#f2f8f0"
