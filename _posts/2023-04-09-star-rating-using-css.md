@@ -5,7 +5,7 @@ categories: CSS
 tags: snippets html css rating
 ---
 
-## Create a rating system using minimum HTML markup.
+## Create a rating system using minimum HTML.
 
 ### The goal
 
