@@ -5,11 +5,11 @@ categories: CSS
 tags: snippets html css rating
 ---
 
-## The GOAL
+## GOAL
 
 Create a rating system using minimum HTML.
 
-## The HTML
+## HTML
 
 In orther to specify a rating we will use a `span` with a <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes">`data attribute`</a> and a value from `1` to `5`.
 
@@ -17,7 +17,7 @@ In orther to specify a rating we will use a `span` with a <a href="https://devel
 <span class="star" data-rating="3"></span>
 ```
 
-## The CSS
+## CSS
 
 We are going to use the `★` character for our rating system. 
 
