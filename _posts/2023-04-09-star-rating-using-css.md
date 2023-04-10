@@ -19,6 +19,8 @@ In orther to specify a rating we will use a `span` with a <a href="https://devel
 
 ## CSS
 
+The whole purpose of this snippets it´s to try to practice selectors and how can we use CSS to represent information from a <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes">data attribute</a>.
+
 ### The Content
 
 We are going to use the `★` character for our rating system. 
@@ -38,6 +40,49 @@ We are going to use the `★` character for our rating system.
 If you think about it we are always to show <strong>five stars</strong>, some will be <span style="color:#ffc700">★</span>, and others will be <span style="color:#dddad7">★</span>. 
 
 In orther to show both types we will use the `::before` (<span style="color:#ffc700">★</span>) and `::after` (<span style="color:#dddad7">★</span>) selectors.
+
+Rating | before | after
+:----: | :-----:|:----:
+1      | 1      | 4
+2      | 2      | 3
+3      | 3      | 2
+4      | 4      | 1
+5      | 5      | 0
+
+Now we know how many stars will our content need and we can group them.
+
+Content | before | after
+:-----: | :-----:|:----:
+1 ★     | 1      | 4
+2 ★     | 2      | 3
+3 ★     | 3      | 2
+4 ★     | 4      | 1
+5 ★     | 5      | 0
+
+### The Code
+
+`
+.star[data-rating="1"]::before,
+.star[data-rating="4"]::after {
+  content: "★";
+}
+.star[data-rating="2"]::before,
+.star[data-rating="3"]::after {
+  content: "★★";
+}
+.star[data-rating="3"]::before,
+.star[data-rating="2"]::after {
+  content: "★★★";
+}
+.star[data-rating="4"]::before,
+.star[data-rating="1"]::after {
+  content: "★★★★";
+}
+.star[data-rating="5"]::before,
+.star[data-rating="0"]::after {
+  content: "★★★★★";
+}
+`
 
 ## Example
 
