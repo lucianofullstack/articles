@@ -55,7 +55,7 @@ Rating | before | after
 
 ### The Code
 
-<pre>
+```css
 .star[data-rating="1"]::before,
 .star[data-rating="4"]::after {
   content: "★";
@@ -76,7 +76,7 @@ Rating | before | after
 .star[data-rating="0"]::after {
   content: "★★★★★";
 }
-</pre>
+```
 
 ## Example
 
