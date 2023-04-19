@@ -2,7 +2,7 @@
 title: "Email obfuscation using JavaScript"
 date: 2023-04-15
 categories: JavaScript
-tags: snippets javascript css html email
+tags: snippets email
 m: "mail address obfuscation"
 published: yes
 ---
@@ -150,5 +150,4 @@ Or check this pen:
   <span>See the Pen <a href="https://codepen.io/lucianofullstack/pen/poxyVQb">
   Email Obfuscation</a> by Luciano Fullstack (<a href="https://codepen.io/lucianofullstack">@lucianofullstack</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</p><script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

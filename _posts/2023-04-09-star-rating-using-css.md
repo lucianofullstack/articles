@@ -2,7 +2,7 @@
 title: "Star Rating using CSS"
 date: 2023-04-10
 categories: CSS
-tags: snippets html css rating
+tags: snippets rating
 ---
 
 Learn how to create a simple **star rating** look with only CSS and minimum HTML. We are going to use the data attribute and the before and after selectors. Check this step-by-step guide.
@@ -84,6 +84,4 @@ Rating | before | after
   <span>See the Pen <a href="https://codepen.io/lucianofullstack/pen/VwELpPO">
   star rating</a> by Luciano Pereira (<a href="https://codepen.io/lucianofullstack">@lucianofullstack</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</p><script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
