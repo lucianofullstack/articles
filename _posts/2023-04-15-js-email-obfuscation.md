@@ -142,7 +142,7 @@ In terms of design we will use https://simplecss.org a minimal CSS semantic fram
 
 ## The Result
 
-You can visit the page with the [final result](https://lucianofullstack.pages.dev/assets/encoder).
+### You can visit the page with the [final result](https://lucianofullstack.pages.dev/assets/encoder).
 
 Or check this pen:
 
