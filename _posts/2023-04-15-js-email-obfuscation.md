@@ -14,9 +14,10 @@ Check this step-by-step guide.
 Let´s Start.
 
 <details open>
-  <summary>
-    <h2>Background</h2>
-  </summarry>
+<summary>
+<h2>Background</h2>
+</summary>
+
 I like how Cloudflare obfuscate mails, googling around I found an [Andrew Lock](https://andrewlock.net/) article explaining how to use a simple bitwise XOR using a key, and as I knew the technique, I decided to adapt it and do my own implementation. 
 
 If you want to skip the how-to and just use it you can visit my [encoder page](https://lucianofullstack.pages.dev/assets/encoder).
