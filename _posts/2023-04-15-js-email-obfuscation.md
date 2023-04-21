@@ -13,19 +13,18 @@ Check this step-by-step guide.
 
 Let´s Start.
 
-<details open>
-<summary>
-<h2>Background</h2>
-</summary>
-
 I like how Cloudflare obfuscate mails, googling around I found an [Andrew Lock](https://andrewlock.net/) article explaining how to use a simple bitwise XOR using a key, and as I knew the technique, I decided to adapt it and do my own implementation. 
 
-If you want to skip the how-to and just use it you can visit my [encoder page](https://lucianofullstack.pages.dev/assets/encoder).
+<details open>
+<summary>
+If you want to skip the how-to and just use it you can visit
+</summary>
+ <a href="https://lucianofullstack.pages.dev/assets/encoder">Encoder Page</a>
+</details>
 
 `XOR` stands for *exclusive OR*. It is a logical operation that returns a positive or true result when either but not both of its two inputs are true. In other words, the output is true if the inputs are not alike otherwise the output is false.
 
 The `XOR` algorithm is basically a simple substitution cipher. In other words, it just replaces each alphanumeric in a string that is fed into it with another number. Crucially, the algorithm is reversible. So if you feed the output string back into the same algorithm, you end up with the original string with the cipher removed. This kind of cipher is also called an additive cipher, and is the simplest kind of cipher there is.
-</details>
 
 ## Goal
 
