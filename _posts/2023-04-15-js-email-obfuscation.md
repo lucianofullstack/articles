@@ -17,13 +17,8 @@ Let´s Start.
 
 I like how Cloudflare obfuscate mails, googling around I found an [Andrew Lock](https://andrewlock.net/) article explaining how to use a simple bitwise XOR using a key, and as I knew the technique, I decided to adapt it and do my own implementation. 
 
-<details open>
-<summary>
-<h2>Background</h2>
-</summary>
 If you want to skip the how-to and just use it you can visit
 the <a href="https://lucianofullstack.pages.dev/assets/encoder">Encoder Page</a>
-</details>
 
 `XOR` stands for *exclusive OR*. It is a logical operation that returns a positive or true result when either but not both of its two inputs are true. In other words, the output is true if the inputs are not alike otherwise the output is false.
 
@@ -128,9 +123,13 @@ function parseEmail() {
 
 ## The Form Encoder
 
+<details open>
+<summary><strong>What we need</strong></summary>
+
 We will create a very basic form in order to encode and create the links also it will have the instructions that allow users to add the script needed to decode mails.
 
 The form need some validations as we need an email address and a key from 0 to 255. You can check the full source code below. 
+</details>
 
 In order to verify the address we use this function that returns `true` or `false` when an address is passed to it.
 
