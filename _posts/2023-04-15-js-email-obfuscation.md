@@ -18,7 +18,7 @@ Let´s Start.
 I like how Cloudflare obfuscate mails, googling around I found an [Andrew Lock](https://andrewlock.net/) article explaining how to use a simple bitwise XOR using a key, and as I knew the technique, I decided to adapt it and do my own implementation. 
 
 If you want to skip the how-to and just use it you can visit
-the <a href="https://lucianofullstack.pages.dev/assets/encoder">Encoder Page</a>
+the [Encoder Page](https://lucianofullstack.pages.dev/assets/encoder)
 
 `XOR` stands for *exclusive OR*. It is a logical operation that returns a positive or true result when either but not both of its two inputs are true. In other words, the output is true if the inputs are not alike otherwise the output is false.
 
@@ -143,8 +143,6 @@ function validEmail(email) {
 In terms of design we will use https://simplecss.org a minimal CSS semantic framework.
 
 ## Final Code
-
-### The Result
 
 You can visit the page with the [final result](https://lucianofullstack.pages.dev/assets/encoder).
 
