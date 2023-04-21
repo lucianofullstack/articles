@@ -125,10 +125,8 @@ function parseEmail() {
 
 <details open>
 <summary><strong>What we need</strong></summary>
-
-We will create a very basic form in order to encode and create the links also it will have the instructions that allow users to add the script needed to decode mails.
-
-The form need some validations as we need an email address and a key from 0 to 255. You can check the full source code below. 
+<p>We will create a very basic form in order to encode and create the links also it will have the instructions that allow users to add the script needed to decode mails.</p>
+<p>The form need some validations as we need an email address and a key from 0 to 255. You can check the full source code below. </p>
 </details>
 
 In order to verify the address we use this function that returns `true` or `false` when an address is passed to it.
