@@ -145,9 +145,11 @@ function validEmail(email) {
 
 In terms of design we will use https://simplecss.org a minimal CSS semantic framework.
 
-## The Result
+## Final Code
 
-### You can visit the page with the [final result](https://lucianofullstack.pages.dev/assets/encoder).
+### The Result
+
+You can visit the page with the [final result](https://lucianofullstack.pages.dev/assets/encoder).
 
 Or check this pen:
 
