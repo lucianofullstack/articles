@@ -13,13 +13,16 @@ Check this step-by-step guide.
 
 Let´s Start.
 
+## Background
+
 I like how Cloudflare obfuscate mails, googling around I found an [Andrew Lock](https://andrewlock.net/) article explaining how to use a simple bitwise XOR using a key, and as I knew the technique, I decided to adapt it and do my own implementation. 
 
 <details open>
 <summary>
-If you want to skip the how-to and just use it you can visit
+<h2>Background</h2>
 </summary>
- <a href="https://lucianofullstack.pages.dev/assets/encoder">Encoder Page</a>
+If you want to skip the how-to and just use it you can visit
+the <a href="https://lucianofullstack.pages.dev/assets/encoder">Encoder Page</a>
 </details>
 
 `XOR` stands for *exclusive OR*. It is a logical operation that returns a positive or true result when either but not both of its two inputs are true. In other words, the output is true if the inputs are not alike otherwise the output is false.
