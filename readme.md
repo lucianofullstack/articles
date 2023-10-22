@@ -1,8 +1,8 @@
 # Design &amp; Code
 
-## My programming blog
+## My ✒️ Tech Blog 🤖
 
 <img src="readme.png">
 
-🔗 lucianofullstack.github.io/articles
+🔗 https://lucianofullstack.github.io/articles
 
